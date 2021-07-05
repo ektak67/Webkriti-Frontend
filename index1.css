@@ -3,8 +3,9 @@
   padding: 0;
   font-family: sans-serif;
 }
-
-
+body{
+  background-color:bisque;
+}
 section {
   position: absolute;
   width: 100%;
@@ -59,19 +60,19 @@ section {
 {
   width: 50%;
 }
-h1{
+.name{
     color: black;
-    font-weight: 600;
-    font-size: 1.5em;
-    text-transform: uppercase;
+    font-size: 70px;
     margin-bottom: 20px;
     border-bottom: 4px; 
     font-family: 'Dancing Script', cursive;
-    font-weight: 1200;
+    font-family: 'Fuggles', cursive;
+    font-weight: bolder;
     display: block;
     letter-spacing: 1px;
 
 }
+
 h2
 {
   color: #1d76aa;

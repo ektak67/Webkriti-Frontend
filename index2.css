@@ -6,56 +6,92 @@
 }
 
 body{
-    background-image: linear-gradient(rgba(0 ,0 ,0 ,0.3), rgba(0 ,0 ,0 ,0.3)) , url(bg3.jpg);
+    background-image: linear-gradient(rgba(0 ,0 ,0 ,0.3), rgba(0 ,0 ,0 ,0.3)) , url('bg2.jpg');
     background-repeat: no-repeat ;
-    height : 670px;
+    background-position: center;
     background-position : center;
-    backface-visibility: hidden;
     background-size:cover ;
-}
-  
-.container{
-    text-align: center;
-      display: flex;
-      position: relative;
-      margin: 10% auto;
-      height: 400px;
-      width: 400px;
-      background : rgba(0, 0 , 0 ,0.4);
-      box-shadow: 0 2px 4px rgba(0, 0 , 0 ,0.9) ;
-      justify-content: center;      
-  }
-
-  h1
-  {
-    display: inline;
-    color: white;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-bottom: 4px; 
-    font-family: 'Dancing Script', cursive;
-    font-weight: 1200;
-    display: block;
-    letter-spacing: 1px;
+    background-position-x: 10%;
+    display: flex;
     justify-content: center;
     align-items: center;
 
 }
+  
+.container{
+      position: relative;
+      margin: 10% auto;
+      height: 500px;
+      width: 500px;
+      background : rgba(0, 0 , 0 ,0.4);
+      box-shadow: 0 2px 4px rgba(0, 0 , 0 ,0.9) ;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly; 
+      align-content: center; 
+      align-items: center;    
+  }
 
-form{
-    width: 50%;
-    height: 450px;
+  
+
+  .M
+  {
+    display: inline;
+    color: white;
+    font-weight: 600;
+    font-size: 75px;
+
+    
+    /* margin-top: 5px; */
+    margin-bottom: 20px;
+    border-bottom: 4px; 
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Fuggles', cursive;
+    font-weight: 1200;
+    display: block;
+    letter-spacing: 1px;
     justify-content: center;
-    align: center;
+    align-content: center;
+    align-items: center;
+
 }
 
-.inputbox{
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.M{
+    margin-top: -15%;
+}
+
+.Form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items : center;
+    align-content: center;
+
+}
+
+form{
     margin-bottom: 20px;
     font-size: 16px;
     margin-bottom: 5px;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items : center;
+    align-content: center;
+} 
+
+.inputbx{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 16px;
     color: rgb(0, 204, 255);
     font-weight: 300;
     font-size: 16px;
@@ -63,10 +99,9 @@ form{
   }
 
   input{
-    display: block;
-    width: 100px;
+    width: 150px;
     padding: 10px 20px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     outline: none;
     font-weight: 400;
     border: 1px solid white;
@@ -84,8 +119,26 @@ form{
     outline: none;
     border: none;
     cursor: pointer;
+    justify-content: center;
+    align-items: center;
 }
 
 input[ type="submit"] :hover{
     background : #ecb4c0;
+}
+p{
+    display: flex ;
+    color: white;
+}
+
+a{
+    color: blue;
+}
+
+.signIn{
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   margin-top: 10px;
 }
