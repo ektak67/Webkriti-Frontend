@@ -1,0 +1,73 @@
+body{
+    margin: 0px;
+}
+.navbar{
+    background-color: rgb(102, 12, 61);
+    margin: 0px;
+    border-radius: 30px;
+    
+}
+
+.navbar ul{
+    overflow: auto;
+}
+
+.navbar li{
+    color: beige;
+    float: left;
+    list-style: none;
+    margin: 10px 10px;
+}
+
+.navbar li a{
+    color: beige;
+    text-decoration: none;
+    list-style: none;
+    padding: 15px 5px;
+}
+.first{
+    
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Fuggles', cursive;
+    font-size: 25px;
+    font-weight: bold;
+}
+.sec{
+    float: right;
+}
+.c6{
+    float: right;
+}
+.Search{
+    
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    border-radius: 0;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+    margin: 0 0 8px 0;
+    padding: 0;
+    
+}
+li a:hover {
+    background-color: rgb(233, 147, 147);
+  }
+button{
+    background-color: #4CAF50;  
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 30px;
+  
+}
+
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: coral;
+}
+
