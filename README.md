@@ -31,11 +31,13 @@ Here we can see the profile of logged in user <br>
 #
 **5.Post** <br><br>
 Each Post contains a header which includes the name of the person who posted that, the picture , the like button (which glows red when clicked) and the comment section .<br>
-![create post](https://user-images.githubusercontent.com/82212464/125115755-662b4880-e109-11eb-821a-778a5f8a0cbb.png)
+![WhatsApp Image 2021-07-09 at 23 29 33](https://user-images.githubusercontent.com/82212464/125119165-52361580-e10e-11eb-8cb9-90ebd25051ec.jpeg)
+
 
 #
 
-**Setting Up the Project**<br>
-
-**1.Clone the repo**<br>
+**Setting Up the Project**<br><br>
+     **Our landing page is Sign In** <br> <br>
+     ![Sign_in](https://user-images.githubusercontent.com/82212464/125115104-83134c00-e108-11eb-9dfb-b97d78971c1b.png)<br><br>
+**1. Clone the repo**<br>
 git clone https://github.com/ektak67/Webkriti-Frontend.git
