@@ -10,7 +10,7 @@ body{
     background: #ffffff;
     border: brown;
     width: 600px;
-    height: 400px;
+    height: 450px;
     margin-top: 10px;
     margin-left: 500px;
     margin-right: 500px;
@@ -29,6 +29,7 @@ body{
 }
 
 .username{
+    margin-top: 10px;
     margin-left: 25px;
     font-size: larger;
     font-style: oblique;
@@ -47,8 +48,13 @@ body{
     margin-left: 20px;
     margin-right: 20px;
     display: flex;
+    /* display: grid;
+    grid-template-columns: auto; */
 }
-
+img{
+    width: 500px;
+    height: 250px;
+}
 .comment_Section{
     height: 5rem;
     width: 100%;
