@@ -1,0 +1,184 @@
+body{
+    background-color: bisque;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+}
+.profile_pic{
+    width: 170px;
+    height: 170px;
+    border-radius: 100px;
+}
+.follower_following_posts{
+    width: 300px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.followers_following{
+    margin: 0px 0px 0px 10px;
+}
+.username{
+    font-size: 50px;
+    
+}
+.user_email_id{
+    font-size: 25px;
+}
+.space{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+ .btn{
+    /* appearance: none; */
+    /* background-color: initial; */
+    /* cursor: default; */
+    /* align-items: baseline; */
+    /* color: inherit; */
+    text-overflow: ellipsis;
+    white-space: pre;
+    /* text-align: start !important; */
+    /* padding: initial; */
+    /* border: initial; */
+    overflow: hidden !important;
+    /* float:left; */
+    /* overflow: visible; */
+    /* font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; */
+    /* line-height: 1.15; */
+    /* height: 3rem; */
+    /* line-height: 3rem; */
+    /* border-radius: 30px; */
+    /* transition-duration: .5s; */
+    /* opacity: .9; */
+    /* text-decoration: none; */
+    color: #fff;
+    /* background-color: #26a69a; */
+    /* text-align: center; */
+    /* letter-spacing: .5px; */
+    /* -webkit-transition: background-color .2s ease-out;
+    transition: background-color .2s ease-out; */
+    cursor: pointer;
+    /* font-size: 14px; */
+    /* outline: 0; */
+    /* border: none; */
+    border-radius: 30px;
+    /* display: inline-block; */
+    /* height: 36px; */
+    /* line-height: 36px; */
+    padding: 5px 10px;
+    /* margin-bottom: 3px; */
+    /* text-transform: uppercase; */
+    /* vertical-align: middle; */
+    /* -webkit-tap-highlight-color: transparent; */
+    width: 160px;
+}
+.blue.darken-1 {
+    background-color: #1E88E5 !important;
+}
+hr{
+    width: 100%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    display: grid;
+    /* grid-template-columns: 100px 100px auto; */
+    grid-template-columns: repeat(3,auto);
+
+}
+.grid_items{
+    /* margin: 3px 3px 3px 3px; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 210px;
+    height: 160px;
+}
+.posts{
+    width: 200px;
+    height: 150px;
+}
+@media screen and (max-width: 480px){
+    .profile_pic{
+        width: 125px;
+        height: 125px;
+        border-radius: 100px;
+    }
+    .username{
+        font-size: 40px;
+        
+    }
+    .user_email_id{
+        font-size: 15px;
+    }
+    .follower_following_posts{
+        width: 200px;
+        font-size: 12px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    } 
+    .container{
+        width: 600px;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        display: grid;
+    grid-template-columns: repeat(2,auto);
+    }
+    hr{
+        width: 90%;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .grid{
+        display: flex;
+        justify-content: space-evenly;
+        /* align-items: center; */
+        display: grid;
+        /* grid-template-columns: 100px 100px auto; */
+        grid-template-columns: repeat(3,auto);
+    
+    }
+    .grid_items{
+        /* margin: 3px 3px 3px 3px; */
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 190px;
+        height: 160px;
+        /* margin-right: 2px; */
+    }
+    .posts{
+        width: 180px;
+        height: 150px;
+    }
+    
+}

@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(255, 234, 209);
+    padding: 0px;
+    margin: 0px;
+
+}
+.contain{
+    
+    border-radius: 15px;
+    background: #ffffff;
+    border: brown;
+    width: 600px;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 500px;
+    margin-right: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.username{
+    margin-left: 25px;
+    font-size: larger;
+    font-style: oblique;
+    font-weight: bold;
+    position: auto;
+    /* margin-top: 10px; */
+    margin-bottom: 5px;
+    display: block;
+    justify-content: left;
+    text-align: left; 
+}
+
+.post_container{
+     background: #e99696;
+     width: 500px;
+     height: 250px;
+     margin-left: 20px;
+     margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.comment_Section{
+  
+    height: 5rem;
+    width: 100%;
+   
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    outline: none;
+    
+}
+
+
+.icon{
+    position :-ms-page;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    direction: ltr;
+}
+
+input [type="file"]{
+   position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    opacity: 0;
+    border: none;
+    background: transparent;
+}
+
+.msg{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+    border-radius: 30px;
+    outline: none;
+    height: 3rem;
+    width: 95%;
+    font-size: 16px;
+    margin: 10px 10px 8px 10px;
+    padding: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-transition: border .3s, -webkit-box-shadow .3s;
+    transition: border .3s, -webkit-box-shadow .3s;
+    transition: box-shadow .3s, border .3s;
+    transition: box-shadow .3s, border .3s, -webkit-box-shadow .3s;
+}

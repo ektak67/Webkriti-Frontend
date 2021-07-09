@@ -65,9 +65,9 @@ box-shadow:  20px 20px 60px #bebebe,
     padding: 5px;
 
 }
-.cl3{
+/* .cl3{
     
-}
+} */
 input [type="file"]{
     position: absolute;
     top: 0;
@@ -90,13 +90,13 @@ input [type="file"]{
     border: none;
     cursor: pointer;
 }
-.cl4{
+/* .cl4{
     
 
-}
+} */
 .b{
     font-size: 15px;
-    background: #2214df;
+    background: #248fc0;
     color: white;
     outline: none;
     border: none;
