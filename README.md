@@ -24,7 +24,7 @@ After logging in you will see a home screen and you can view all the posts there
 The navbar at the top contains a home icon and other options like create post , my following posts , my profile , all of these are pretty much self explanatory .<br>
 ![navbar](https://user-images.githubusercontent.com/82212464/125115418-edc48780-e108-11eb-81ec-b988d09447c3.png)<br>
 #
-**4.Profile Page **<br><br>
+**4.Profile Page**<br><br>
 Here we can see the profile of logged in user <br>
 ![profile page](https://user-images.githubusercontent.com/82212464/125116463-60823280-e10a-11eb-9215-44554bfb6553.png)
 
@@ -42,7 +42,8 @@ Each Post contains a header which includes the name of the person who posted tha
 **1. Clone the repo**<br>
 git clone https://github.com/ektak67/Webkriti-Frontend.git
 
-# **Team Member **
+# 
+**Team Member**
 1. Dipti Singh 2020IMT-029
 2. Ekta Kumari 2020IMT-032
 
