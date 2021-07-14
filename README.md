@@ -41,3 +41,8 @@ Each Post contains a header which includes the name of the person who posted tha
      ![Sign_in](https://user-images.githubusercontent.com/82212464/125115104-83134c00-e108-11eb-9dfb-b97d78971c1b.png)<br><br>
 **1. Clone the repo**<br>
 git clone https://github.com/ektak67/Webkriti-Frontend.git
+
+# **Team Member **
+1. Dipti Singh 2020IMT-029
+2. Ekta Kumari 2020IMT-032
+
