@@ -44,6 +44,6 @@ git clone https://github.com/ektak67/Webkriti-Frontend.git
 
 # 
 **Team Member**
-1. Dipti Singh 2020IMT-029
-2. Ekta Kumari 2020IMT-032
+1. Dipti Singh
+2. Ekta Kumari
 
